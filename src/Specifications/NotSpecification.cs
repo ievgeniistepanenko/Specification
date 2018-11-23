@@ -7,7 +7,7 @@ namespace Specification
     {
         private readonly Specification<T> _specification;
 
-        public NotSpecification(Specification<T> specification)
+        internal NotSpecification(Specification<T> specification)
         {
             _specification = specification;
         }

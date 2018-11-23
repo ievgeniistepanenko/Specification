@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Specification.Interfaces;
+using System;
 using System.Linq.Expressions;
 
 namespace Specification
 {
-    public abstract class Specification<T>
+    public abstract class Specification<T> : ISpecification<T>
     {
         public bool IsSatisfiedBy(T entity)
         {
