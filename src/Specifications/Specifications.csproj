@@ -13,8 +13,8 @@
     <Company>Softwaris</Company>
     <RepositoryUrl>https://github.com/ievgeniistepanenko/Specification</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/ievgeniistepanenko/Specification/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>1.0.1</Version>
-    <PackageReleaseNotes>Implements ISpecification interface</PackageReleaseNotes>
+    <Version>1.1.1</Version>
+    <PackageReleaseNotes>Added extensions methods for IQueryable and IEnumerable</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
