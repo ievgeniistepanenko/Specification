@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageId>Softwaris.Specifications</PackageId>
@@ -13,8 +13,8 @@
     <Company>Softwaris</Company>
     <RepositoryUrl>https://github.com/ievgeniistepanenko/Specification</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/ievgeniistepanenko/Specification/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>1.1.1</Version>
-    <PackageReleaseNotes>Added extensions methods for IQueryable and IEnumerable</PackageReleaseNotes>
+    <Version>1.2.1</Version>
+    <PackageReleaseNotes>move up to .net standard 2.1</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
